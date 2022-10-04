@@ -141,3 +141,21 @@ x-ui v2-ui
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/vaxilu/x-ui.svg)](https://starchart.cc/vaxilu/x-ui)
+
+-------------------------------------------------------------------------------------------------------
+
+Get your server up to date:
+
+apt update && apt upgrade -y
+
+
+Also install curl and socat:
+
+apt install curl socat -y
+
+
+Run the X-UI Install Script:
+
+Download and run the one-click install script provided by the developer:
+
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
